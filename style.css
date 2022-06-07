@@ -321,8 +321,8 @@ p {
   color: #fff !important;
   border-radius: 0;
   position: fixed;
-  bottom: 30px;
-  right: 30px;
+  bottom: 75px;
+  right: 5px;
   z-index: 9;
   cursor: pointer;
   -webkit-transition: all 0.3s ease-out 0s;
@@ -2171,6 +2171,28 @@ footer {
 #footer-body a:hover {
   color: var(--info-dark);
 }
+
 .footer-links {
   font-size: 3vh;
+}
+
+#overallAnch {
+  width: 110px;
+  height: 55px;
+  background: var(--black);
+  bottom: 15px;
+  left: 5px;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 1024px) {
+  #overallAnch {
+    width: 45px;
+    height: 45px;
+    bottom: 25px;
+  }
+
+  #overallAnch span:nth-last-of-type(-n + 2) {
+    display: none;
+  }
 }
