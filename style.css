@@ -307,7 +307,7 @@ p {
   width: 45px;
   height: 45px;
   line-height: 45px;
-  background: var(--primary);
+  background: var(--primary-dark);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
